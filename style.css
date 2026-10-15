@@ -1,5 +1,5 @@
 .Meny{
-    max-height: 2vh;
+    max-height: 3vh;
     width: auto;
      margin: 0;
     padding: 0;
@@ -18,23 +18,21 @@ body{
 nav{
     display: flex;
     align-items: center;
-    background-color:rgb(54, 56, 29) ;
+    background-color:rgb(251, 251, 251) ;
 }
-    /* Dropdown Button */
 .dropbtn {
   padding: 1vh;
-  font-size: 16px;
+  font-size: 4vh;
   border: none;
-  background-color:rgb(54, 56, 29);
+  background-color:rgb(252, 252, 251);
+  padding-bottom: 3vh;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -44,19 +42,60 @@ nav{
   z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
-  color: black;
+  color: rgb(66, 59, 59);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgb(46, 48, 25);}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(152, 150, 150);
+    border-radius: 2vh;
+}
+.Sr:hover{
+transform: scale(1.05);
+border-color: rgb(248, 255, 41);
+}
+
+.Search{
+  display: flex;
+    appearance: none;
+    flex: 1;
+    width: 90vh;
+    height: 6vh;                     
+    padding-block: calc(var(--spacing, .25rem) * 2);
+    background-color: #0000;
+    outline-style: none;
+    border-radius: 3vh;
+    text-align: center;
+    border: none;
+    height: 6vh;
+    
+}
+.Sr{
+  display: flex;
+background-color: rgb(153, 146, 146,0.6);
+  border-radius: 3vh;
+  border: solid, 2px;
+  margin-left:20vh ;
+  align-items: center;
+  transition: transform 0.1s ease;
+}
+.Sok{
+  max-height: 2.5vh;
+  display: block;
+  cursor: pointer;
+  padding-right: 2vh;
+}
+
+
+
+
