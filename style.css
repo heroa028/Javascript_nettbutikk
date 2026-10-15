@@ -26,6 +26,7 @@ nav{
   border: none;
   background-color:rgb(252, 252, 251);
   padding-bottom: 3vh;
+  transition: transform 0.3s ease;
 }
 
 .dropdown {
@@ -52,17 +53,18 @@ nav{
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-
-.dropdown:hover .dropdown-content {display: block;}
-
-
-.dropdown:hover .dropbtn {
-    background-color: rgb(152, 150, 150);
-    border-radius: 2vh;
+.Meny{
+  transition: 0.2s ease ;
 }
+.Meny:hover {
+transform: scale(1.1);
+}
+
+
 .Sr:hover{
 transform: scale(1.05);
 border-color: rgb(248, 255, 41);
+box-shadow: rgb(80, 72, 72), 2vh;
 }
 
 .Search{
@@ -87,7 +89,7 @@ background-color: rgb(153, 146, 146,0.6);
   border: solid, 2px;
   margin-left:20vh ;
   align-items: center;
-  transition: transform 0.1s ease;
+  transition: transform 0.7s ease;
 }
 .Sok{
   max-height: 2.5vh;
