@@ -98,6 +98,62 @@ background-color: rgb(153, 146, 146,0.6);
   padding-right: 2vh;
 }
 
+/* Slideshow (Produkt_Slide) */
+.Produkt_Slide {
+  position: relative;
+  max-width: 1200px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
+.lysbilde {
+  display: none;
+  position: relative;
+}
 
+.bilde {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
 
+.bildetekst {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.forrige, .neste {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 16px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.forrige {
+  left: 10px;
+}
+
+.neste {
+  right: 10px;
+}
+
+.forrige:hover, .neste:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

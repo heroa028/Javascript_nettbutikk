@@ -17,37 +17,55 @@
 <body>
     <nav class="navup">
         <img src="Bilder/nille_logo.png" class="Logo" alt="nille_logo">
-<nav class="Nav2">
-        <div class="dropdown">
+        <nav class="Nav2">
+            <div class="dropdown">
 
-            <button onclick="Klikk()" class="dropbtn"> <img src="Bilder/menu-burger.svg" class="Meny" alt="menu-burger"> Meny</button>
-            <div id="dropdown-content" class="dropdown-content">
-                <a href="#">Galleri</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link</a>
+                <button onclick="Klikk()" class="dropbtn"> <img src="Bilder/menu-burger.svg" class="Meny"
+                        alt="menu-burger"> Meny</button>
+                <div id="dropdown-content" class="dropdown-content">
+                    <a href="#">Galleri</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link</a>
+                </div>
             </div>
-        </div>
-        
 
-    <div class="Sr">
-        
-        <input class="Search" placeholder="Søk etter produkter" type="search">
-        <label for="Search"><img class="Sok" src="Bilder/search.svg" alt="Søk"></label>
-        </div>
+
+            <div class="Sr">
+
+                <input class="Search" placeholder="Søk etter produkter" type="search">
+                <label for="Search"><img class="Sok" src="Bilder/search.svg" alt="Søk"></label>
+            </div>
         </nav>
     </nav>
 
 
     <section class="Produkt_Slide">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <div class="lysbilde">
+            <img class="bilde" src="" alt="Produkt 1">
+            <p class="bildetekst">Ukens tilbud: Spar opptil 40% på høstvarer!</p>
+        </div>
+
+        <div class="lysbilde">
+            <img class="bilde" src="" alt="Produkt 2">
+            <p class="bildetekst">Nyheter i butikk – Se sesongens favoritter</p>
+        </div>
+
+        <div class="lysbilde">
+            <img class="bilde" src="" alt="Produkt 3">
+            <p class="bildetekst">Alt du trenger til et koselig hjem</p>
+        </div>
+
+        <div class="lysbilde">
+            <img class="bilde" src="" alt="Produkt 4">
+            <p class="bildetekst">Gavetips til enhver anledning</p>
+        </div>
+
+        <button class="forrige" onclick="byttBilde(-1)">&#10094;</button>
+        <button class="neste" onclick="byttBilde(1)">&#10095;</button>
     </section>
     <a href="">Se alle produkter -></a>
-    <script src="noe.js">
-
-    </script>
+    <script src="klikk.js"></script>
+    <script src="slideshow.js"></script>
 
 
 </body>
