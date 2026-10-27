@@ -157,3 +157,18 @@ background-color: rgb(153, 146, 146,0.6);
 .forrige:hover, .neste:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+.Galleri{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Galleri img{
+    width: 30vw;
+    padding: 5vh;
+    padding-top: 10vh;
+    transition: transform 0.5s;
+}
+
+.Galleri img:hover{
+    transform: translateY(-2vh);
+}
