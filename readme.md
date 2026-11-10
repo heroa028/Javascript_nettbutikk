@@ -1,1 +1,7 @@
+**Nettbutikk javascript butikk**
+
+**Beskrivelse:**
 Et prosjekt om å lage en nettbutikk/nettside med bruk av tingene i javscript vi har lært i det siste. 
+
+**Mappestruktur:**
+

@@ -105,6 +105,11 @@ background-color: rgb(153, 146, 146,0.6);
   margin: 30px auto;
   overflow: hidden;
   border-radius: 10px;
+  background-color: #3e3d3d;
+}
+.Produkt_Slide img{
+  display: flex;
+  padding-left: 29vw;
 }
 
 .lysbilde {
@@ -211,5 +216,16 @@ background-color: rgb(153, 146, 146,0.6);
 
 .Button img:hover{
   transform: scale(1.1);
+}
+.Handlekurv{
+  display: flex;
+  justify-content: center;
+}
+.Handlekurvo{
+  font-size: 6vh;
+  font-weight: 0.6rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #525252;
+  padding-left: 25vw;
 }
 
